@@ -7,7 +7,7 @@ Flask-Whiteprint is an enhancement of Flask-Blueprint.
 Installation
 ------------
 
-Flask-Whiteprint is on development. I recommend *NOT* using it now.
+Flask-Whiteprint is on development. I recommend **NOT** using it now.
 
 
 Whiteprint-level Error Handler
@@ -31,7 +31,7 @@ Flask-Whiteprint supports whiteprint-level error handler for all exceptions incl
 Dynamic Alias URL
 ~~~~~~~~~~~~~~~~~
 
-You can alias url with ``alias`` method. Alias redirects without any redirect response and with all request context (e.g. HTTP Header, URL Variables or Form Data). This code redirects ``/me`` to ``/user/<int:id>`` with all request context.
+You can alias url with ``alias`` method. Alias redirects without any redirect response (e.g. 301 or 302) and with all request context (e.g. HTTP Header, URL Variables or Form Data). This code redirects ``/me`` to ``/user/<int:id>`` with all request context.
 
 ::
 
