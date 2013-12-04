@@ -1,1 +1,5 @@
 *.pyc
+venv
+MANIFEST
+build
+dist
